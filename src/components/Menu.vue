@@ -8,7 +8,7 @@ function scrollTo(id) {
   if (element) {
     element.scrollIntoView({ behavior: 'smooth' });
   }
-  document.activeElement?.blur(); 
+  event?.target?.blur(); 
 }
 
 function handleScroll() {
@@ -27,10 +27,10 @@ onBeforeUnmount(() => {
 <template>
   <nav :class="['menu-fijo', { 'fondo-solido': isScrolled }]">      
     <ul>
-      <li><a href="#section1" @click.prevent="scrollTo('section1')">Inicio</a></li>
-      <li><a href="#section1" @click.prevent="scrollTo('section2')">Sobre mí</a></li>
-      <li><a href="#section2" @click.prevent="scrollTo('section3')">Proyectos</a></li>
-      <li><a href="#section3" @click.prevent="scrollTo('section4')">Formación</a></li>
+      <li><a href="#section1" @click.prevent="(e) => scrollTo('section1', e)">Inicio</a></li>
+      <li><a href="#section1" @click.prevent="(e) => scrollTo('section2', e)">Sobre mí</a></li>
+      <li><a href="#section2" @click.prevent="(e) => scrollTo('section3', e)">Proyectos</a></li>
+      <li><a href="#section3" @click.prevent="(e) => scrollTo('section4', e)">Formación</a></li>
     </ul>
   </nav>
 </template>
