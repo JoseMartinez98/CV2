@@ -8,6 +8,7 @@ function scrollTo(id) {
   if (element) {
     element.scrollIntoView({ behavior: 'smooth' });
   }
+  document.activeElement?.blur(); 
 }
 
 function handleScroll() {
@@ -75,18 +76,20 @@ onBeforeUnmount(() => {
 .menu-fijo a:hover{
     color:yellow
 }
+.menu-fijo a:focus {
+  outline: none;
+  color: white; 
+}
+
 .fondo-solido {
   background: #333333; 
   transition: background 0.3s ease-in-out;
 }
-@media (max-width: 1080x) {
+@media (max-width: 1080px) {
   .menu-fijo{
-    display: none;
     width: 100%;
   }
   .menu-fijo ul {
-    display: none;
-    flex-direction: column;
     width: 100%;
     gap: 60px;
     padding: 0;
