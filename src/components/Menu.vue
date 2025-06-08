@@ -3,13 +3,16 @@ import { onMounted, onBeforeUnmount, ref } from 'vue'
 
 const isScrolled = ref(false)
 
-function scrollTo(id) {
+function scrollTo(id, event) {
   const element = document.getElementById(id);
   if (element) {
     element.scrollIntoView({ behavior: 'smooth' });
   }
-  event?.target?.blur(); 
+  setTimeout(() => {
+    event?.target?.blur();
+  }, 100);
 }
+
 
 function handleScroll() {
   isScrolled.value = window.scrollY > 50;
