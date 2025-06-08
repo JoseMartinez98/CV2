@@ -58,16 +58,18 @@
 @media (max-width: 480px) {
   .footer {
     max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    box-sizing: border-box; 
+  }
   .social-icons {
-    width: 100%;
-    max-width: 300px;
-    justify-content: space-around;
-    margin: 0;
+    width: auto; 
+    max-width: none; 
+    justify-content: center; 
+    gap: 15px; 
+    margin: 0 auto; 
     padding: 0;
+  }
 }
-}
+
 </style>

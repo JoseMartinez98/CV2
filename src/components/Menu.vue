@@ -107,8 +107,9 @@ onBeforeUnmount(() => {
     flex-direction: row;
     width: 100%;
     gap: 40px;
-    padding: 0;
+    padding: 8px;
     align-items: center;
+    font-size: 14px;
   }
   
   .menu-fijo li {

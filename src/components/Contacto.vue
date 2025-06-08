@@ -128,7 +128,7 @@ span{
 
 @media (max-width: 480px) {
   .social-icons {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
   }
 
