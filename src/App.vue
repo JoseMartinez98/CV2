@@ -9,19 +9,19 @@ import PiePagina from './components/PiePagina.vue';
 
 <template>
     <Menu />
-     <div id="section1">
+     <div id="section1" class="section">
       <Encabezado />
     </div>
     <hr>
-    <div id="section2">
+    <div id="section2" class="section">
       <Contacto />
     </div>
     <hr>
-    <div id="section3">
+    <div id="section3" class="section">
       <Proyectos />
     </div>
     <hr>
-    <div id="section4">
+    <div id="section4" class="section">
       <Formacion /> 
     </div>
     <hr>
@@ -37,7 +37,10 @@ hr {
   margin: 40px 0;
   margin-top: 80px;
   margin-bottom: 80px;
-
 }
+.section {
+  scroll-margin-top: 100px;
+}
+
 
 </style>

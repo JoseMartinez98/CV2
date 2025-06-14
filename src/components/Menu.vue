@@ -30,14 +30,18 @@ onBeforeUnmount(() => {
 <template>
   <nav :class="['menu-fijo', { 'fondo-solido': isScrolled }]">      
     <ul>
-      <li><a href="#section1" @click.prevent="(e) => scrollTo('section1', e)">Inicio</a></li>
-      <li><a href="#section1" @click.prevent="(e) => scrollTo('section2', e)">Sobre mí</a></li>
-      <li><a href="#section2" @click.prevent="(e) => scrollTo('section3', e)">Proyectos</a></li>
-      <li><a href="#section3" @click.prevent="(e) => scrollTo('section4', e)">Formación</a></li>
+      <li><a href="#section1" class="section" @click.prevent="(e) => scrollTo('section1', e)">Inicio</a></li>
+      <li><a href="#section1" class="section" @click.prevent="(e) => scrollTo('section2', e)">Sobre mí</a></li>
+      <li><a href="#section2" class="section" @click.prevent="(e) => scrollTo('section3', e)">Proyectos</a></li>
+      <li><a href="#section3" class="section" @click.prevent="(e) => scrollTo('section4', e)">Formación</a></li>
     </ul>
   </nav>
 </template>
 <style scoped>
+.seccion {
+  scroll-margin-top: 200px;
+}
+
 .menu-fijo {
   position: fixed;
   top: 0;

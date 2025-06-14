@@ -35,7 +35,7 @@ import Menu from './Menu.vue';
 </template>
 <style scoped>
 .contacto{
-    margin-top: 20px;
+    margin-top: 80px;
 }
 h1 {
   width: 100%;
