@@ -9,20 +9,7 @@ import Menu from './Menu.vue';
             </svg>
           <h1>Sobre mí...</h1>
         </div>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-mart%C3%ADnez-gonz%C3%A1lez-0a7837215/" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/JoseMartinez98" target="_blank" title="GitHub">
-            <i class="fab fa-github"></i>
-            </a>
-            <a href="tel:+34691797404" title="Llamar al móvil">
-            <i class="fas fa-phone"></i>
-            </a>
-            <a href="mailto:josesw98@gmail.com" title="Enviar correo">
-            <i class="fas fa-envelope"></i>
-            </a>
-        </div>
+
        <div class="descripcion">
         <span> Sobre mí, puedo decir que soy una persona con interés en la <span class="nombre"> formación continua</span> y en el 
           aprendizaje de <span class="nombre"> nuevas habilidades</span>. No tengo inconvenientes en adaptarme a los cambios y me 
@@ -84,27 +71,10 @@ h1 {
   margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.7);
 }
-
- .social-icons {
-      display: flex;
-      justify-content: center;
-      font-size: 2rem;
-      width: 80%;
-      margin: 0 auto;
-      gap: 100px;
-}
-.social-icons a {
-    color: white;      
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-.social-icons a:hover {
-    color: yellow; 
-    transform: scale(1.2);}
 .descripcion{
     width: 60%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
