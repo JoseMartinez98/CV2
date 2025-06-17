@@ -24,26 +24,25 @@ import Menu from './Menu.vue';
             </a>
         </div>
        <div class="descripcion">
-        <span> Sobre mi decir que soy una persona a 
-            la que le gusta estar en <span class="nombre">formación continua</span> y aprender cosas nuevas, 
-            no tengo problemas en cuanto a <span class="nombre">cambios y adaptación</span>. Además me gusta la 
-            <span class="nombre">colaboración </span> con otras personas y la 
-            <span class="nombre">interacción</span> en cualquier ambito.
+        <span> Sobre mí, puedo decir que soy una persona con interés en la <span class="nombre"> formación continua</span> y en el 
+          aprendizaje de <span class="nombre"> nuevas habilidades</span>. No tengo inconvenientes en adaptarme a los cambios y me 
+          desenvuelvo bien en entornos dinámicos. Además, valoro la <span class="nombre"> colaboración y la interacción</span> con 
+          otras personas en cualquier ámbito.
         </span>
        </div> 
        <div class="descripcion">
-        <span> Como bien digo, soy <span class="nombre"> junior </span>, lo cual quiere decir que tengo <span class="nombre">nociones </span>y 
-          <span class="nombre">habilidades</span> para poder<span class="nombre"> realizar tareas</span>, algunas de manera independiente y otras 
-          bajo guía. Durante la realización del ciclo superior de <span class="nombre">Desarrollo de Aplicaciones
-          Web</span>, las<span class="nombre"> prácticas de empresa</span> y mis <span class="nombre"> proyectos personales </span>he desarrollado una 
-          serie de conocimientos y aptitudes en <span class="nombre">diferentes tecnologías</span>. Esto no me hace experto,
-          pero si funcional para trabajar con ellas y seguir perfeccionándolas.
+        <span> Como indico, me encuentro en una etapa junior, lo que implica que cuento con <span class="nombre"> nociones </span> y 
+        <span class="nombre">  habilidades </span> que me permiten llevar a cabo diversas tareas, algunas de forma <span class="nombre"> autónoma </span> y otras 
+          con <span class="nombre">orientación</span>. A lo largo del ciclo formativo de grado superior en <span class="nombre"> Desarrollo de Aplicaciones 
+          Web</span>, así como durante las <span class="nombre"> prácticas en empresa</span> y mis <span class="nombre">proyectos personales</span>, he adquirido 
+          <span class="nombre">conocimientos</span> y <span class="nombre">competencias</span> en diferentes tecnologías. Esto no me convierte en un experto,
+           pero sí en una persona capacitada para trabajar con ellas y seguir <span class="nombre">perfeccionándolas</span>.
         </span>
        </div> 
        <div class="descripcion">
-        <span> Actualmente, realizo tareas de <span class="nombre">FullStack</span> pero no me cierro a especializarme
-        y profesionalizarme en un entorno de <span class="nombre">Back-end</span> o <span class="nombre">Front-end</span>
-        ya que ambos campos me llaman la atención. 
+        <span> <span class="nombre">Actualmente</span> desempeño funciones como desarrollador <span class="nombre"> Full Stack</span>, aunque estoy <span class="nombre">abierto a</span> 
+          especializarme y profesionalizarme tanto en el área de <span class="nombre">Back-end</span> como en la de <span class="nombre">Front-end</span>, ya 
+          que ambas me resultan <span class="nombre">atractivas</span>.
         </span>
        </div> 
        <div class="tech-icons">
