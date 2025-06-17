@@ -33,7 +33,7 @@ import Menu from './Menu.vue';
        </div> 
        <div class="descripcion">
         <span> Como bien digo, soy <span class="nombre"> junior </span>, lo cual quiere decir que tengo <span class="nombre">nociones </span>y 
-          <span class="nombre">habilidades</span> para poder<span class="nombre"> realiar tareas</span>, algunas de manera independiente y otras 
+          <span class="nombre">habilidades</span> para poder<span class="nombre"> realizar tareas</span>, algunas de manera independiente y otras 
           bajo guía. Durante la realización del ciclo superior de <span class="nombre">Desarrollo de Aplicaciones
           Web</span>, las<span class="nombre"> prácticas de empresa</span> y mis <span class="nombre"> proyectos personales </span>he desarrollado una 
           serie de conocimientos y aptitudes en <span class="nombre">diferentes tecnologías</span>. Esto no me hace experto,
@@ -132,6 +132,10 @@ span{
 .tech-icons i {
     transition: transform 0.3s ease, color 0.3s ease;
     cursor: default;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.192);
 }
 
 .icon-svg {
@@ -140,9 +144,12 @@ span{
   vertical-align: middle;
   display: inline-block;
   object-fit: contain;
-  width: 2.0rem;
-  height: 2.0rem;
-
+  width: 1.9rem;
+  height: 1.9rem;
+  border: 2px solid yellow;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.192);
 }
 
 @media (max-width: 768px) {

@@ -9,7 +9,7 @@
         <h1> Hey, soy <span class="nombre"> Jose</span>!
         </h1>
         <h2 class="nombre">JUNIOR FULL STACK DEVELOPER</h2>
-        <h2>Dsiponible para trabajar 
+        <h2>Disponible para trabajar 
             <a href="documents/CvJamg2025.pdf" download="CV_JAMG" class="btn-cv">
             <i class="fas fa-file-download" style="margin-right: 8px;"></i> Descargar CV</a>
             <br><span class="ubicacion">

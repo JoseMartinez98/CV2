@@ -13,6 +13,11 @@
     <div class="titulos">
       <ul class="timeline">
         <li>
+            <span class="fecha">ACTUALIDAD</span>
+            <h3>CIBERSEGURIDAD AVANZADA EN ENTORNOS DE LAS TECNOLOGÍAS DE LA OPERACIÓN</h3>
+            <p>Aprendea.com – España</p>
+        </li>
+        <li>
             <span class="fecha">15/02/2023 – 7/04/2025</span>
             <h3>Desarrollo de Aplicaciones Web</h3>
             <p>ILERNA – España</p>
