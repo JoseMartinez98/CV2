@@ -31,6 +31,33 @@ import Menu from './Menu.vue';
             <span class="nombre">interacción</span> en cualquier ambito.
         </span>
        </div> 
+       <div class="descripcion">
+        <span> Como bien digo, soy <span class="nombre"> junior </span>, lo cual quiere decir que tengo <span class="nombre">nociones </span>y 
+          <span class="nombre">habilidades</span> para poder<span class="nombre"> realiar tareas</span>, algunas de manera independiente y otras 
+          bajo guía. Durante la realización del ciclo superior de <span class="nombre">Desarrollo de Aplicaciones
+          Web</span>, las<span class="nombre"> prácticas de empresa</span> y mis <span class="nombre"> proyectos personales </span>he desarrollado una 
+          serie de conocimientos y aptitudes en <span class="nombre">diferentes tecnologías</span>. Esto no me hace experto,
+          pero si funcional para trabajar con ellas y seguir perfeccionándolas.
+        </span>
+       </div> 
+       <div class="descripcion">
+        <span> Actualmente, realizo tareas de <span class="nombre">FullStack</span> pero no me cierro a especializarme
+        y profesionalizarme en un entorno de <span class="nombre">Back-end</span> o <span class="nombre">Front-end</span>
+        ya que ambos campos me llaman la atención. 
+        </span>
+       </div> 
+       <div class="tech-icons">
+         <i class="fab fa-vuejs" title="Vue.js"></i>
+         <i class="fab fa-laravel" title="Laravel"></i>
+         <i class="fab fa-php" title="PHP"></i>
+         <i class="fab fa-java" title="Java"></i>
+         <i class="fas fa-database" title="MySQL"></i>
+         <i class="fab fa-html5" title="HTML5"></i>
+         <i class="fab fa-css3-alt" title="CSS3"></i>
+         <i class="fab fa-js-square" title="JavaScript"></i>
+         <i class="fab fa-git-alt" title="Git"></i>
+        <img src="/icons/springboot.svg" alt="Spring Boot" class="icon-svg" title="Spring Boot" />
+      </div>
     </div>
 </template>
 <style scoped>
@@ -91,6 +118,33 @@ span{
     width: 100%;
     font-size: 20px;
 }
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 80%;
+    margin: 80px auto 0 auto;
+    font-size: 3rem;
+    color: white;
+}
+
+.tech-icons i {
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: default;
+}
+
+.icon-svg {
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  vertical-align: middle;
+  display: inline-block;
+  object-fit: contain;
+  width: 2.0rem;
+  height: 2.0rem;
+
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 28px;
@@ -125,6 +179,10 @@ span{
     font-size: 1rem;
   }
 }
+.tech-icons {
+    gap: 30px;
+    font-size: 2rem;
+  }
 
 @media (max-width: 480px) {
   .social-icons {
