@@ -161,7 +161,7 @@ span{
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 40px;
   }
@@ -174,7 +174,13 @@ span{
     height: 220px;
     width: 180px;
   }
-
+  
+  .social-icons {
+    gap: 30px;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
   .btn-cv {
     font-size: 14px;
     padding: 10px 20px;
