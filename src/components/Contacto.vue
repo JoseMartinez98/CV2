@@ -18,7 +18,7 @@ import Menu from './Menu.vue';
         </span>
        </div> 
        <div class="descripcion">
-        <span> Como indico, me encuentro en una etapa junior, lo que implica que cuento con <span class="nombre"> nociones </span> y 
+        <span> Me encuentro en una etapa en la que cuento con <span class="nombre"> nociones </span> y 
         <span class="nombre">  habilidades </span> que me permiten llevar a cabo diversas tareas, algunas de forma <span class="nombre"> autónoma </span> y otras 
           con <span class="nombre">orientación</span>. A lo largo del ciclo formativo de grado superior en <span class="nombre"> Desarrollo de Aplicaciones 
           Web</span>, así como durante las <span class="nombre"> prácticas en empresa</span> y mis <span class="nombre">proyectos personales</span>, he adquirido 
