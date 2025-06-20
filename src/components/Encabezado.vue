@@ -106,12 +106,12 @@ span{
 }
  .social-icons {
       display: flex;
+      justify-content: left;
       font-size: 2rem;
       width: 80%;
       margin: 0 auto;
       margin-top: 40px;
       gap: 100px;
-      
 }
 .social-icons a {
     color: white;      
@@ -159,6 +159,10 @@ span{
     margin-top: 10px;
     font-size: 18px;
   }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -177,7 +181,7 @@ span{
   
   .social-icons {
     gap: 30px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     justify-content: center;
     align-items: center;
   }
