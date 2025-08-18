@@ -1,26 +1,56 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <div class="proyectos">
     <div class="titulo-con-icono">
-      <svg class="icono-proyectos" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+      <svg
+        class="icono-proyectos"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M16 18l6-6-6-6M8 6l-6 6 6 6"
+        />
       </svg>
       <h1>Proyectos...</h1>
     </div>
-    <h3>STUDIO GHIBLI API</h3>
+
+    <!-- Proyecto 1 -->
+    <h3>APP GYM FITNESS CENTER</h3>
+    <div class="enlaces">
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/FitnessCenter-BACK"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - Backend
+      </a>
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/FitnessCenter-FRONT"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - Frontend
+      </a>
+      <a
+        class="demo-btn"
+        href="https://macaelfitnesscenter.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Demo
+      </a>
+    </div>
     <div class="cardProject">
       <div class="imageContainer">
-        <img src="/public/image/proyecto1.jpeg" alt="Proyecto 1" />
-        <div class="overlay">
-          <a href="https://github.com/JoseMartinez98/BACK-STUDIO_GHIBLI_API" target="_blank" rel="noopener noreferrer">
-            <svg class="arrowIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
+        <img src="/public/image/proyecto4.png" alt="Proyecto 4" />
       </div>
       <div class="tags">
         <span class="springBoot">Spring Boot</span>
@@ -32,17 +62,73 @@
         <span class="mysql">MySQL</span>
       </div>
     </div>
-    <h3>STAR WARS API</h3>
+
+    <!-- Proyecto 2 -->
+    <h3>STUDIO GHIBLI API</h3>
+    <div class="enlaces">
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/BACK-STUDIO_GHIBLI_API"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - Backend
+      </a>
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/FRONT-STUDIO_GHIBLI_API"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - Frontend
+      </a>
+    </div>
     <div class="cardProject">
       <div class="imageContainer">
-        <img src="/public/image/proyecto2.png" alt="Proyecto 1" />
-        <div class="overlay">
-          <a href="https://github.com/JoseMartinez98/BACK-SWAPI" target="_blank" rel="noopener noreferrer">
-            <svg class="arrowIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
+        <img src="/public/image/proyecto1.jpeg" alt="Proyecto 1" />
+      </div>
+      <div class="tags">
+        <span class="springBoot">Spring Boot</span>
+        <span class="java">Java</span>
+        <span class="vue">VueJs</span>
+        <span class="javascript">JavaScript</span>
+        <span class="html">HTML</span>
+        <span class="css">CSS</span>
+        <span class="mysql">MySQL</span>
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <h3>STAR WARS API</h3>
+    <div class="enlaces">
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/BACK-SWAPI"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - Backend
+      </a>
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/FRONT-SWAPI"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - Frontend
+      </a>
+      <a
+        class="youtube-btn"
+        href="https://www.youtube.com/watch?v=jkTsFFLCJc0&t=71s&ab_channel=JoseMartinez98"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        YouTube
+      </a>
+    </div>
+    <div class="cardProject">
+      <div class="imageContainer">
+        <img src="/public/image/proyecto2.png" alt="Proyecto 2" />
       </div>
       <div class="tags">
         <span class="laravel">Laravel</span>
@@ -54,17 +140,22 @@
         <span class="mysql">MySQL</span>
       </div>
     </div>
-    <h3> CINEMA PROJECT </h3>
+
+    <!-- Proyecto 4 -->
+    <h3>CINEMA PROJECT</h3>
+    <div class="enlaces">
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/ProyectoFP"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+    </div>
     <div class="cardProject">
       <div class="imageContainer">
-        <img src="/public/image/proyecto3.jpeg" alt="Proyecto 1" />
-        <div class="overlay">
-          <a href="https://github.com/JoseMartinez98/ProyectoFP" target="_blank" rel="noopener noreferrer">
-            <svg class="arrowIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
+        <img src="/public/image/proyecto3.jpeg" alt="Proyecto 3" />
       </div>
       <div class="tags">
         <span class="php">PHP</span>
@@ -93,7 +184,7 @@ h1 {
   margin-left: 2%;
   margin-bottom: 40px;
 }
-h3{
+h3 {
   color: rgb(255, 255, 0);
 }
 .titulo-con-icono {
@@ -120,11 +211,6 @@ h3{
   border-radius: 30px;
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
 }
-.info{
-  padding: 10px;
-  color: white;
-
-}
 .imageContainer {
   position: relative;
   width: 100%;
@@ -136,33 +222,6 @@ h3{
   object-fit: cover;
   border-bottom: 2px solid rgb(255, 255, 255);
   border-radius: 30px 30px 0 0;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(100, 100, 100, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 30px 30px 0 0;
-}
-.imageContainer:hover .overlay {
-  opacity: 1;
-}
-.arrowIcon {
-  width: 50px;
-  height: 50px;
-  color: white;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.arrowIcon:hover {
-  transform: scale(1.2);
 }
 
 .tags {
@@ -180,8 +239,27 @@ h3{
   font-size: 14px;
   white-space: nowrap;
 }
+
+/* Botón de GitHub */
+.github-btn {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #24292f;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.github-btn:hover {
+  background-color: #444c56;
+  transform: scale(1.05);
+}
+
 .springBoot {
-  background-color: #6DB33F;
+  background-color: #6db33f;
 }
 .java {
   background-color: #007396;
@@ -199,39 +277,71 @@ h3{
 .css {
   background-color: #264de4;
 }
-.mysql{
+.mysql {
   background-color: #007396;
 }
-.laravel{
-background-color: #e3755a;
+.laravel {
+  background-color: #e3755a;
 }
-.php{
-background-color: #8a11ac;
+.php {
+  background-color: #8a11ac;
 }
+/* Botón de YouTube */
+.youtube-btn {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #ff0000; /* rojo de YouTube */
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.youtube-btn:hover {
+  background-color: #cc0000; /* tono más oscuro */
+  transform: scale(1.05);
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+/* Botón de Demo */
+.demo-btn {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #4caf50; /* verde demo */
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.demo-btn:hover {
+  background-color: #388e3c; /* verde más oscuro */
+  transform: scale(1.05);
+}
+
 @media (max-width: 1024px) {
   h1 {
     font-size: 32px;
     margin-left: 5%;
   }
-
   .titulo-con-icono {
     margin-left: 20px;
   }
-
   .cardProject {
     width: 80%;
     height: auto;
   }
-
   .imageContainer {
     height: 250px;
   }
-
-  .arrowIcon {
-    width: 40px;
-    height: 40px;
-  }
-
   .tags span {
     font-size: 13px;
     padding: 5px 10px;
@@ -244,43 +354,30 @@ background-color: #8a11ac;
     text-align: center;
     margin-left: 0;
   }
-
   .titulo-con-icono {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
   }
-
   .icono-proyectos {
     width: 50px;
     height: 50px;
     margin: 0 0 10px 0;
   }
-
   .cardProject {
     width: 90%;
     height: auto;
   }
-
   .imageContainer {
     height: 200px;
   }
-
-  .tags {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .tags span {
     font-size: 12px;
     padding: 4px 8px;
   }
-
   h3 {
     text-align: center;
     font-size: 20px;
   }
 }
-
-
 </style>
