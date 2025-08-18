@@ -347,7 +347,11 @@ h3 {
     padding: 5px 10px;
   }
 }
-
+.enlaces {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 28px;
@@ -378,6 +382,11 @@ h3 {
   h3 {
     text-align: center;
     font-size: 20px;
+  }
+  .enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 }
 </style>
