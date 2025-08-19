@@ -43,7 +43,7 @@ hr {
   margin-bottom: 80px;
 }
 .section {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 140px;
 }
 .before-view {
   opacity: 0;
