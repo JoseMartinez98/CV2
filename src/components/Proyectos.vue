@@ -47,6 +47,14 @@
       >
         Demo
       </a>
+            <a
+        class="youtube-btn"
+        href="https://youtu.be/WMmpXqFxk8g"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        YouTube
+      </a>
     </div>
     <div class="cardProject">
       <div class="imageContainer">
@@ -307,7 +315,7 @@ h3 {
 .enlaces {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 10px;
 }
 /* Botón de Demo */
 .demo-btn {
@@ -347,11 +355,7 @@ h3 {
     padding: 5px 10px;
   }
 }
-.enlaces {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 28px;
@@ -385,8 +389,9 @@ h3 {
   }
   .enlaces {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
   }
+  
 }
 </style>
