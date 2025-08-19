@@ -8,27 +8,31 @@ import PiePagina from './components/PiePagina.vue';
 </script>
 
 <template>
-    <Menu />
-     <div id="section1" class="section">
-      <Encabezado />
-    </div>
-    <hr>
-    <div id="section2" class="section">
-      <Contacto />
-    </div>
-    <hr>
-    <div id="section3" class="section">
-      <Proyectos />
-    </div>
-    <hr>
-    <div id="section4" class="section">
-      <Formacion /> 
-    </div>
-    <hr>
-     <PiePagina />
+  <Menu />
 
+  <div id="section1" class="section" v-observe-animate="'animate-slide-up'">
+    <Encabezado />
+  </div>
+  <hr>
 
+  <div id="section2" class="section" v-observe-animate="'animate-fade-in'">
+    <Contacto />
+  </div>
+  <hr>
+
+  <div id="section3" class="section" v-observe-animate="'animate-zoom-in'">
+    <Proyectos />
+  </div>
+  <hr>
+
+  <div id="section4" class="section" v-observe-animate="'animate-slide-up'">
+    <Formacion /> 
+  </div>
+  <hr>
+
+  <PiePagina />
 </template>
+
 
 <style scoped>
 hr {
@@ -41,6 +45,32 @@ hr {
 .section {
   scroll-margin-top: 100px;
 }
+.before-view {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.animate-fade-in.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-slide-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-zoom-in.before-view {
+  opacity: 0;
+  transform: translateY(40px); 
+}
+
+.animate-zoom-in.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
 </style>
