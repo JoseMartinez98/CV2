@@ -107,7 +107,7 @@ span{
  .social-icons {
       display: flex;
       justify-content: left;
-      font-size: 2rem;
+      font-size: 3rem;
       width: 80%;
       margin: 0 auto;
       margin-top: 40px;

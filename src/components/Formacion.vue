@@ -13,7 +13,12 @@
     <div class="titulos">
       <ul class="timeline">
         <li>
-            <span class="fecha">ACTUALIDAD</span>
+            <span class="fecha">2/09/2025 - 15/12/2025</span>
+            <h3>SEGURIDAD INFORMÁTICA</h3>
+            <p>Grupo ATU – España</p>
+        </li>
+        <li>
+            <span class="fecha">1/06/2025 - 1/07/2025</span>
             <h3>CIBERSEGURIDAD AVANZADA EN ENTORNOS DE LAS TECNOLOGÍAS DE LA OPERACIÓN</h3>
             <p>Aprendea.com – España</p>
         </li>
@@ -21,26 +26,6 @@
             <span class="fecha">15/02/2023 – 7/04/2025</span>
             <h3>Desarrollo de Aplicaciones Web</h3>
             <p>ILERNA – España</p>
-        </li>
-        <li>
-            <span class="fecha">07/2023</span>
-            <h3>EDUCACIÓN PARA LA SALUD EN JÓVENES</h3>
-            <p>Diputación Provincial de Almería</p>
-        </li>
-         <li>
-            <span class="fecha">09/2017 - 06/2022</span>
-            <h3>Graduado en Educación Primaria</h3>
-            <p>Universidad de Almería – España</p>
-        </li>
-        <li>
-            <span class="fecha">12/2021 - 03/2022</span>
-            <h3>La programación didáctica: componentes y realización</h3>
-            <p>Universidad Nebrija</p>
-        </li>
-        <li>
-            <span class="fecha">09/2021</span>
-            <h3>MONITOR DE EDUCACIÓN DEPORTIVA EN EL TIEMPO LIBRE JUVENIL</h3>
-            <p>Diputación de Almería</p>
         </li>
         <li>
             <span class="fecha">06/2021</span>
@@ -51,26 +36,6 @@
             <span class="fecha">07/2020</span>
             <h3> LIDERAZGO PARA JÓVENES</h3>
             <p>Diputación de Almería</p>
-        </li>
-        <li>
-            <span class="fecha">06/2020</span>
-            <h3>Soporte Vital Básico y DESA</h3>
-            <p>Universidad de Almería – Diploma y acreditación</p>
-        </li>
-        <li>
-            <span class="fecha">04/2020 - 06/2020</span>
-            <h3>Socorrista Acuático</h3>
-            <p>Universidad de Almería</p>
-        </li>
-        <li>
-            <span class="fecha">03/2019</span>
-            <h3>La nutrición en el deporte: aspectos básicos para el entrenamiento y la competición</h3>
-            <p>Universidad de Granada</p>
-        </li>
-        <li>
-            <span class="fecha">01/2017</span>
-            <h3>Permiso de conducción B</h3>
-            <p>Autoescuela Matías</p>
         </li>
       </ul>
     </div>
