@@ -10,7 +10,7 @@
         </h1>
         <h2 class="nombre"> WEB DEVELOPER</h2>
         <h2>Disponible para trabajar 
-            <a href="documents/CvJamg2025.pdf" download="CV_JAMG" class="btn-cv">
+            <a href="documents/CV_JoseAntonioMartinezGonzalez.pdf" download="CV_JoseAntonioMartinezGonzalez" class="btn-cv">
             <i class="fas fa-file-download" style="margin-right: 8px;"></i> Descargar CV</a>
             <br><span class="ubicacion">
                 Almería, España 🇪🇸
