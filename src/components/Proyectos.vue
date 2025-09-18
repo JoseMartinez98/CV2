@@ -31,7 +31,7 @@
       </a>
       <a
         class="demo-btn"
-        href="https://macaelfitnesscenter.vercel.app/"
+        href="https://cv-carmen-bedrule.vercel.app//"
         target="_blank"
         rel="noopener noreferrer"
       >
