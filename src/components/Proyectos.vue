@@ -19,8 +19,37 @@
       </svg>
       <h1>Proyectos...</h1>
     </div>
+    <h3>PORTFOLIO WEB CB</h3>
+    <div class="enlaces">
+      <a
+        class="github-btn"
+        href="https://github.com/JoseMartinez98/CV_CarmenBedrule"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+      <a
+        class="demo-btn"
+        href="https://macaelfitnesscenter.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Portfolio
+      </a>
+    </div>
+    <div class="cardProject">
+      <div class="imageContainer">
+        <img src="/public/image/proyectoCarmen.png" alt="Proyecto 4" />
+      </div>
+      <div class="tags">
+        <span class="vue">VueJs</span>
+        <span class="javascript">JavaScript</span>
+        <span class="html">HTML</span>
+        <span class="css">CSS</span>
+      </div>
+    </div>
 
-    <!-- Proyecto 1 -->
     <h3>APP GYM FITNESS CENTER</h3>
     <div class="enlaces">
       <a
@@ -71,7 +100,6 @@
       </div>
     </div>
 
-    <!-- Proyecto 2 -->
     <h3>STUDIO GHIBLI API</h3>
     <div class="enlaces">
       <a
@@ -106,7 +134,6 @@
       </div>
     </div>
 
-    <!-- Proyecto 3 -->
     <h3>STAR WARS API</h3>
     <div class="enlaces">
       <a
@@ -149,7 +176,6 @@
       </div>
     </div>
 
-    <!-- Proyecto 4 -->
     <h3>CINEMA PROJECT</h3>
     <div class="enlaces">
       <a
