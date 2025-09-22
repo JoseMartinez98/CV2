@@ -3,7 +3,7 @@
 <template>
 <div class="encabezado">
     <div class="fotoPerfil">
-        <img class="perfil" src="/public/image/titulo.jpg">
+        <img class="perfil" src="/public/image/perfil.jpg">
     </div>
     <div class="infoPersonal">
         <h1> Hey, soy <span class="nombre"> Jose</span>!
