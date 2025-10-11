@@ -1,38 +1,42 @@
 <script setup>
-import Encabezado from './components/Encabezado.vue';
-import Menu from './components/Menu.vue';
-import Contacto from './components/Contacto.vue';
-import Proyectos from './components/Proyectos.vue';
-import Formacion from './components/Formacion.vue';
-import PiePagina from './components/PiePagina.vue';
+import Encabezado from "./components/Encabezado.vue";
+import Menu from "./components/Menu.vue";
+import Contacto from "./components/Contacto.vue";
+import Proyectos from "./components/Proyectos.vue";
+import Formacion from "./components/Formacion.vue";
+import PiePagina from "./components/PiePagina.vue";
+import Formulario from "./components/Formulario.vue";
 </script>
 
 <template>
   <Menu />
-
+  
   <div id="section1" class="section" v-observe-animate="'animate-slide-up'">
     <Encabezado />
   </div>
-  <hr>
+  <hr />
 
   <div id="section2" class="section" v-observe-animate="'animate-fade-in'">
     <Contacto />
   </div>
-  <hr>
+  <hr />
 
   <div id="section3" class="section" v-observe-animate="'animate-zoom-in'">
     <Proyectos />
   </div>
-  <hr>
+  <hr />
 
   <div id="section4" class="section" v-observe-animate="'animate-slide-up'">
-    <Formacion /> 
+    <Formacion />
   </div>
-  <hr>
+  <hr />
+  <div id="section5" class="section" v-observe-animate="'animate-slide-up'">
+    <Formulario />
+  </div>
+  <hr />
 
   <PiePagina />
 </template>
-
 
 <style scoped>
 hr {
@@ -63,14 +67,11 @@ hr {
 
 .animate-zoom-in.before-view {
   opacity: 0;
-  transform: translateY(40px); 
+  transform: translateY(40px);
 }
 
 .animate-zoom-in.in-view {
   opacity: 1;
   transform: translateY(0);
 }
-
-
-
 </style>
