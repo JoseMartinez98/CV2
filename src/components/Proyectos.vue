@@ -1,5 +1,13 @@
 <script setup>
 const projects = [
+    {
+    title: 'WEBMING',
+    image: import.meta.env.BASE_URL + 'image/WEBMING.png',
+    tags: ['VueJs', 'JavaScript', 'HTML', 'CSS'],
+    links: [
+      { text: 'Web', href: 'https://webming.vercel.app/news', type: 'demo' },
+    ],
+  },
   {
     title: 'PORTFOLIO WEB CB',
     image: import.meta.env.BASE_URL + 'image/proyectoCarmen.png',
