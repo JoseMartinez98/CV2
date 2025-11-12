@@ -23,32 +23,26 @@ import Menu from "./Menu.vue";
 
     <div class="descripcion">
       <span>
-        Sobre mí, puedo decir que soy una persona con interés en la
-        <span class="nombre"> formación continua</span> y en el aprendizaje de
-        <span class="nombre"> nuevas habilidades</span>. No tengo inconvenientes
-        en adaptarme a los cambios y me desenvuelvo bien en entornos dinámicos.
-        Además, valoro la
-        <span class="nombre"> colaboración y la interacción</span> con otras
-        personas en cualquier ámbito.
+        <span class="nombre">Desarrollador Web</span> con enfoque en <span class="nombre">ciberseguridad</span>. Formado en Desarrollo
+        de Aplicaciones Web y con especialización en <span class="nombre">Seguridad Informática
+        IFCT-0109</span> y <span class="nombre">Ciberseguridad en Campus Internacional de Ciberseguridad</span>.
+        Experiencia en proyectos full stack utilizando tecnologías como Spring
+        Boot, Java, Laravel, Vue.js, MySQL y APIs REST.
       </span>
     </div>
     <div class="descripcion">
       <span>
-        Me encuentro en una etapa en la que cuento con
-        <span class="nombre"> nociones </span> y
-        <span class="nombre"> habilidades </span> que me permiten llevar a cabo
-        diversas tareas, algunas de forma
-        <span class="nombre"> autónoma </span> y otras con
-        <span class="nombre">orientación</span>. A lo largo del ciclo formativo
-        de grado superior en
-        <span class="nombre"> Desarrollo de Aplicaciones Web</span>, así como
-        durante las <span class="nombre"> prácticas en empresa</span> y mis
-        <span class="nombre">proyectos personales</span>, he adquirido
-        <span class="nombre">conocimientos</span> y
-        <span class="nombre">competencias</span> en diferentes tecnologías. Esto
-        no me convierte en un experto, pero sí en una persona capacitada para
-        trabajar con ellas y seguir
-        <span class="nombre">perfeccionándolas</span>.
+        Mi objetivo principal es <span class="nombre">desarrollar aplicaciones seguras</span> de principio a
+        fin, aplicando buenas prácticas de arquitectura y protección de datos,
+        integración de JWT para control de acceso, test unitarios,
+        microservicios y diseño responsive orientado a una experiencia de
+        usuario fluida. Formación específica en auditoría de sistemas, análisis
+        de vulnerabilidades, gestión de incidentes y seguridad en redes.
+        Interesado en roles como <span class="nombre">Backend Developer, Full Stack Developer o
+        perfiles híbridos de desarrollo y ciberseguridad</span>, con motivación por
+        seguir creciendo en entornos profesionales colaborativos y ágiles. Me
+        definen la proactividad, la capacidad de aprendizaje y el compromiso por
+        aportar soluciones de calidad.
       </span>
     </div>
     <div class="descripcion">
@@ -216,7 +210,7 @@ span {
   }
   100% {
     transform: translateX(-50%);
-  } 
+  }
 }
 
 @keyframes fadeInOut {

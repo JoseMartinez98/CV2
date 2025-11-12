@@ -6,6 +6,7 @@ import Proyectos from "./components/Proyectos.vue";
 import Formacion from "./components/Formacion.vue";
 import PiePagina from "./components/PiePagina.vue";
 import Formulario from "./components/Formulario.vue";
+import Experiencia from "./components/Experiencia.vue";
 </script>
 
 <template>
@@ -29,11 +30,16 @@ import Formulario from "./components/Formulario.vue";
   <div id="section4" class="section" v-observe-animate="'animate-slide-up'">
     <Formacion />
   </div>
-  <hr />
+  <hr />    
   <div id="section5" class="section" v-observe-animate="'animate-slide-up'">
+    <Experiencia />
+  </div>
+  <hr />
+  <div id="section6" class="section" v-observe-animate="'animate-slide-up'">
     <Formulario />
   </div>
   <hr />
+
 
   <PiePagina />
 </template>

@@ -47,7 +47,8 @@ onBeforeUnmount(() => {
       <li><a href="#section2" @click.prevent="(e) => scrollTo('section2', e)">Sobre mí</a></li>
       <li><a href="#section3" @click.prevent="(e) => scrollTo('section3', e)">Proyectos</a></li>
       <li><a href="#section4" @click.prevent="(e) => scrollTo('section4', e)">Formación</a></li>
-      <li><a href="#section5" @click.prevent="(e) => scrollTo('section5', e)">Contacto</a></li>
+      <li><a href="#section5" @click.prevent="(e) => scrollTo('section5', e)">Experiencia</a></li>
+      <li><a href="#section5" @click.prevent="(e) => scrollTo('section6', e)">Contacto</a></li>
     </ul>
   </nav>
 </template>
