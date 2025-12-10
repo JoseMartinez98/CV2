@@ -140,6 +140,7 @@ const getTagClass = (tag) => {
   flex-direction: column;
   transition: margin-bottom 0.3s ease;
   gap: 40px;
+
 }
 
 /* Título de la sección */
