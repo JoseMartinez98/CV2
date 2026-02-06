@@ -63,11 +63,11 @@ onBeforeUnmount(() => {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: #00000083;
+  background: rgba(255, 255, 255, 0.657);
   padding: 1rem;
   z-index: 1000;
   border-radius: 50px;
-  border: 0.1px solid white;
+  border: 0.1px solid black;
   transition: all 0.3s ease-in-out;
   display: flex;
   align-items: center;
@@ -75,11 +75,10 @@ onBeforeUnmount(() => {
 }
 
 .fondo-solido {
-  background: #000000; 
+  background: white; 
   transition: background 0.3s ease-in-out;
 }
 
-/* ====== UL base ====== */
 .menu-lista {
   list-style: none;
   display: flex;
@@ -95,24 +94,24 @@ onBeforeUnmount(() => {
 }
 
 .menu-lista li:hover {
-  color: yellow;
+  color: #004254;
   transform: scale(1.1);
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .menu-lista a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
 
 .menu-lista a:hover {
-  color: yellow;
+  color: #004254;
 }
 
 .menu-lista a:focus {
   outline: none;
-  color: white;
+  color: black;
 }
 
 /* ====== Hamburguesa ====== */
