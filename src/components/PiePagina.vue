@@ -45,7 +45,7 @@
         text-decoration: none;
     }
     .social-icons a:hover {
-      color: yellow; 
+      color: green; 
     }
     .footer p {
       margin: 10px;

@@ -160,7 +160,7 @@ h1 {
   justify-content: center;
 }
 .nombre {
-  color: yellow;
+  color: green;
 }
 span {
   color: white;
@@ -175,13 +175,13 @@ span {
   width: 80%;
   margin: 80px auto 0 auto;
   font-size: 3rem;
-  color: white;
+  color: green;
 }
 
 .tech-icons i {
   transition: transform 0.3s ease, color 0.3s ease;
   cursor: default;
-  border: 2px solid white;
+  border: 2px solid green;
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.192);
@@ -195,10 +195,10 @@ span {
   object-fit: contain;
   width: 5rem;
   height: 5rem;
-  border: 2px solid yellow;
+  border: 2px solid green;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.192);
+  background-color: rgba(26, 205, 32, 0.192);
 }
 .tech-carousel {
   overflow: hidden;
@@ -236,7 +236,7 @@ span {
 .tech-track .icon-svg {
   font-size: 3rem;
   color: white;
-  border: 2px solid white;
+  border: 2px solid white!important;
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.192);

@@ -69,7 +69,7 @@ h2{
     margin: 10px;
 }
 .nombre{
-    color: yellow;
+    color: green;
 }
 .ubicacion{
     width: 100%;
@@ -82,14 +82,14 @@ span{
 .btn-cv {
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(90deg, #FFD700, #FFA500); 
+  background: linear-gradient(90deg, #00ff48, #0c9718); 
   color: #222; 
   padding: 12px 24px;
   font-weight: 600;
   font-size: 15px;
   border-radius: 30px;
   text-decoration: none;
-  box-shadow: 0 4px 8px rgba(255, 165, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(21, 255, 0, 0.4);
   transition: background 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   user-select: none;
@@ -97,8 +97,8 @@ span{
 }
 
 .btn-cv:hover {
-  background: linear-gradient(90deg, #FFA500, #FFD700);
-  box-shadow: 0 6px 14px rgba(255, 165, 0, 0.6);
+  background: linear-gradient(90deg, #0c9718, #00ff48);
+  box-shadow: 0 6px 14px rgba(21, 255, 0, 0.6);
   color: #000;
 }
 
@@ -121,7 +121,7 @@ span{
     transition: all 0.2s ease;
 }
 .social-icons a:hover {
-    color: yellow; 
+    color: green; 
     transform: scale(1.2);
   }
 @media (max-width: 1024px) {

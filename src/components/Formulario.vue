@@ -42,7 +42,7 @@ h2 {
   margin: 5px;
   line-height: 40px;
   color: white;
-  text-shadow: 2px 2px 2px #ffcc00;
+  text-shadow: 2px 2px 2px #1a8a09;
 }
 
 .formulario {
@@ -50,18 +50,18 @@ h2 {
   flex-direction: column;
   gap: 15px;
   margin-top: 20px;
-  color: #ffcc00;
+  color: #1a8a09;
 }
 
 .formulario input,
 .formulario textarea {
   padding: 10px;
-  border: 1px solid #ffcc00;
+  border: 1px solid #1a8a09;
   border-radius: 8px;
 }
 
 .formulario button {
-  background-color: #ffcc00;
+  background-color: #1a8a09;
   color: black;
   padding: 10px;
   border: none;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .formulario button:hover {
-  background-color:#c5a113;
+  background-color:#2ad80f;
   color: black;
 }
 </style>

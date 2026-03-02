@@ -154,7 +154,7 @@ h1 {
 
 /* Estilo del título individual del proyecto */
 .project-title {
-  color: #ffcc00; /* Color amarillo/oro para los títulos */
+  color: green; /* Color  para los títulos */
   font-size: 24px;
   margin: 0;
   text-align: center;

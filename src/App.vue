@@ -48,7 +48,7 @@ import Experiencia from "./components/Experiencia.vue";
 <style scoped>
 hr {
   border: none;
-  border-top: 2px solid rgba(255, 255, 255, 0.511);
+  border-top: 1px solid green;
   margin: 40px 0;
   margin-top: 80px;
   margin-bottom: 80px;
