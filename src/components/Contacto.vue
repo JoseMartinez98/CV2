@@ -72,7 +72,46 @@ import Menu from "./Menu.vue";
           class="icon-svg"
           title="Spring Boot"
         />
-        <!-- Duplicamos los íconos para que la cinta sea infinita -->
+        <i class="fab fa-vuejs"></i>
+        <i class="fab fa-laravel"></i>
+        <i class="fab fa-php"></i>
+        <i class="fab fa-java"></i>
+        <i class="fas fa-database"></i>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-git-alt"></i>
+        <img src="/icons/springboot.svg" class="icon-svg" />
+        <i class="fab fa-vuejs"></i>
+        <i class="fab fa-laravel"></i>
+        <i class="fab fa-php"></i>
+        <i class="fab fa-java"></i>
+        <i class="fas fa-database"></i>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-git-alt"></i>
+        <img src="/icons/springboot.svg" class="icon-svg" />
+        <i class="fab fa-vuejs"></i>
+        <i class="fab fa-laravel"></i>
+        <i class="fab fa-php"></i>
+        <i class="fab fa-java"></i>
+        <i class="fas fa-database"></i>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-git-alt"></i>
+        <img src="/icons/springboot.svg" class="icon-svg" />
+        <i class="fab fa-vuejs"></i>
+        <i class="fab fa-laravel"></i>
+        <i class="fab fa-php"></i>
+        <i class="fab fa-java"></i>
+        <i class="fas fa-database"></i>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-git-alt"></i>
+        <img src="/icons/springboot.svg" class="icon-svg" />
         <i class="fab fa-vuejs"></i>
         <i class="fab fa-laravel"></i>
         <i class="fab fa-php"></i>
@@ -154,8 +193,8 @@ span {
   vertical-align: middle;
   display: inline-block;
   object-fit: contain;
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   border: 2px solid yellow;
   padding: 10px;
   border-radius: 10px;
@@ -166,7 +205,6 @@ span {
   width: 100%;
   margin: 80px auto 0 auto;
 
-  /* Gradiente para que los bordes desvanezcan los íconos */
   -webkit-mask-image: linear-gradient(
     to right,
     transparent,

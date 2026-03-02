@@ -188,6 +188,9 @@ onBeforeUnmount(() => {
     pointer-events: none;
     transition: all 0.3s ease;
   }
+  .menu-lista a {
+     color: white;
+  }
 
   .menu-lista.activo {
     transform: translateY(0);

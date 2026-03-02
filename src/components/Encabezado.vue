@@ -61,10 +61,12 @@
 h1{
     color: white;
     font-size: 70px;
+    margin: 10px;
 }
 h2{
     color: rgba(255, 255, 255, 0.676);
     font-size: 30px;
+    margin: 10px;
 }
 .nombre{
     color: yellow;

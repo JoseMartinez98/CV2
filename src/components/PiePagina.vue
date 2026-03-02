@@ -30,7 +30,7 @@
         align-items: center;
         background-color: #0000006d;
         border-radius: 10px;
-        padding: 10px;
+        padding: 20px;
         color: white;
     }
     .social-icons {
@@ -38,6 +38,7 @@
       justify-content: space-between;
       font-size: 2rem;
       width: 30%;
+      margin: 10px;
     }
     .social-icons a {
         color: white;      
@@ -46,7 +47,9 @@
     .social-icons a:hover {
       color: yellow; 
     }
-    /* Tablets */
+    .footer p {
+      margin: 10px;
+    }
 @media (max-width: 768px) {
  .footer {
     max-width: 100%;
@@ -54,7 +57,6 @@
     margin-right: auto;
   } 
 }
-/* Móviles */
 @media (max-width: 480px) {
   .footer {
     max-width: 100%;

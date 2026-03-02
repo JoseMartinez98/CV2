@@ -10,6 +10,7 @@ import Experiencia from "./components/Experiencia.vue";
 </script>
 
 <template>
+  <div class="cyber-background"></div>
   <Menu />
   
   <div id="section1" class="section" v-observe-animate="'animate-slide-up'">
