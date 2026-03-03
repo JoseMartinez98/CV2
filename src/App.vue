@@ -16,30 +16,24 @@ import Experiencia from "./components/Experiencia.vue";
   <div id="section1" class="section" v-observe-animate="'animate-slide-up'">
     <Encabezado />
   </div>
-  <hr />
 
   <div id="section2" class="section" v-observe-animate="'animate-fade-in'">
     <Contacto />
   </div>
-  <hr />
 
   <div id="section3" class="section" v-observe-animate="'animate-zoom-in'">
     <Proyectos />
   </div>
-  <hr />
 
   <div id="section4" class="section" v-observe-animate="'animate-slide-up'">
     <Formacion />
-  </div>
-  <hr />    
+  </div>    
   <div id="section5" class="section" v-observe-animate="'animate-slide-up'">
     <Experiencia />
   </div>
-  <hr />
   <div id="section6" class="section" v-observe-animate="'animate-slide-up'">
     <Formulario />
   </div>
-  <hr />
 
 
   <PiePagina />
