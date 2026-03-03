@@ -46,13 +46,13 @@ import Experiencia from "./components/Experiencia.vue";
 </template>
 
 <style scoped>
-hr {
+/* hr {
   border: none;
   border-top: 1px solid green;
   margin: 40px 0;
   margin-top: 80px;
   margin-bottom: 80px;
-}
+} */
 .section {
   scroll-margin-top: 140px;
 }
