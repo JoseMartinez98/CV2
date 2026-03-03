@@ -49,6 +49,7 @@ import Experiencia from "./components/Experiencia.vue";
 } */
 .section {
   scroll-margin-top: 140px;
+  margin-bottom: 120px;
 }
 .before-view {
   opacity: 0;
