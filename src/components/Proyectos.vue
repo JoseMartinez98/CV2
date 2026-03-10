@@ -1,6 +1,30 @@
 <script setup>
 const projects = [
   {
+    title: "Caso de uso - NESSUS",
+    image: import.meta.env.BASE_URL + "image/nessus.webp",
+    tags: ["Nessus", "Python"],
+    links: [
+      {
+        text: "GitHub",
+        href: "https://github.com/JoseMartinez98/Analisis-Vulnerabilidades-NESSUS",
+        type: "github",
+      },
+    ],
+  },
+{
+    title: "Caso de uso - OWASP ZAP",
+    image: import.meta.env.BASE_URL + "image/owasp1.png",
+    tags: ["OWASP_ZAP", "Python"],
+    links: [
+      {
+        text: "GitHub",
+        href: "https://github.com/JoseMartinez98/Analisis-Vulnerabilidades-OWASP-ZAP",
+        type: "github",
+      },
+    ],
+  },
+  {
     title: "Pentesting machine 1",
     image: import.meta.env.BASE_URL + "image/pentesting.png",
     tags: ["metasploit", "nmap", "hydra"],
@@ -160,6 +184,9 @@ const getTagClass = (tag) => {
     metasploit: "metasploit",
     nmap: "nmap",
     hydra: "hydra",
+    Nessus: "nessus",
+    OWASP_ZAP: "owaszap",
+    Python: "python"
   };
   return classNameMap[tag] || "";
 };
@@ -442,6 +469,21 @@ h1 {
 }
 .hydra {
   background-color: #4682b4;
+}
+.nessus {
+  background-color: #003f5c; 
+  border: 1px solid #00a3e0;
+}
+
+.owaszap {
+  background-color: #51a3da; 
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.python {
+  background-color: #3776ab; 
+  border-bottom: 2px solid #ffd43b; 
+  color: white;
 }
 
 @media (max-width: 1024px) {
