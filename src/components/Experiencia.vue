@@ -1,17 +1,29 @@
 <script setup>
 // Podrías pasar esto a un array si quieres hacerlo dinámico en el futuro
 const experiencias = [
+    {
+    fecha: "4/2026 - Actualidad",
+    puesto: "Desarollo Web",
+    empresa: "Coexphal – Almería, España | Jornada completa",
+    descripcion: "Desarollo Full Stack y bases de datos"
+  },
+    {
+    fecha: "3/2026 - 4/2026",
+    puesto: "Global IT services",
+    empresa: "Cosentino – Almería, España | Prácticas",
+    descripcion: "Apoyo al departamento de IT de Cosentino en la gestión integral de activos tecnológicos y soporte al usuario globalmente, incluyendo la administración de sistemas, resolución de incidencias y mantenimiento de infraestructuras tecnológicas."
+  },
   {
     fecha: "11/2025 - 12/2025",
     puesto: "Seguridad informática",
-    empresa: "Almerimatik Formación – España",
-    descripcion: "Diferentes actividades relacionadas con la seguridad, configuración ISO segura, configuración red cámaras de seguridad etc."
+    empresa: "Almerimatik Formación – España | Prácticas",
+    descripcion: "Diferentes actividades relacionadas con la seguridad, scripts de comfiguración etc."
   },
   {
     fecha: "1/2025 - 3/2025",
     puesto: "Desarrollo Web",
-    empresa: "Alborada IT – España",
-    descripcion: "Desarrollo Full Stack Aplicación Web Laravel - Vue - MySQL"
+    empresa: "Alborada IT – Almería, España | Prácticas",
+    descripcion: "Desarollo Full Stack y bases de datos"
   }
 ];
 </script>
